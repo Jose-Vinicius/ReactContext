@@ -1,0 +1,36 @@
+.card-container{
+    background-color: #4905e6;
+    max-width: 80vw;
+    max-height: 300px;
+    padding: 5px 20px;
+    margin: 10px 0;
+    min-width: 40vw;
+    border-radius: 10px;
+    button{
+        float:right;
+        
+    }
+    
+    h1{
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    p{
+        font-size: 1.2rem;
+        color: rgba(18, 18, 19, 0.904);
+        font-weight: 500;
+        text-overflow: ellipsis;
+        overflow: hidden;
+       
+            
+        
+    }
+    small{
+        display: flex;
+        justify-content: flex-end;
+        font-size: .8rem;
+        font-weight: bold;
+    }
+}

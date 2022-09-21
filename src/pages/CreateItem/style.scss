@@ -1,0 +1,44 @@
+.cardForm-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+    form{
+        display: flex;
+        flex-direction: column;
+        input{
+            border: 2px solid #4c02f7;
+            outline: none;
+            margin: 20px 0;
+            line-height: 35px;
+            font-size: 16px;
+            padding: 0 10px;
+            
+        }
+        textarea{
+            border: 2px solid #4c02f7;
+            resize: none;
+            outline: none;
+            font-size: 16px;
+            
+        }
+    }
+    button{
+        margin: 10px 0;
+        line-height: 40px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        border: 3px solid black;
+        cursor: pointer;
+        margin: 10px 0;
+        transition: .2s;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+}
+
