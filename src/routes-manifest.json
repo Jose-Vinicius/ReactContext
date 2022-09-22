@@ -1,5 +1,5 @@
 {
     "version": 3,
-    "basePath": "",
+    "basePath": "/login",
     "pages404": true
 }
