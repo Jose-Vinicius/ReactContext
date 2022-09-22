@@ -1,7 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Home from './pages/home';
 import Login from './pages/Login';
-import Error from './components/Error';
+
 
 import { 
     BrowserRouter,
@@ -29,10 +29,7 @@ export function Router(){
                         path={'/create'}
                         element={<CreateItem />}
                     />
-                    <Route 
-                        path={'*'}
-                        element={<Error />}
-                    />
+                   
             </Routes>
         </UserProvider>
         </BrowserRouter>
