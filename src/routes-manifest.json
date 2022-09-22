@@ -1,5 +1,12 @@
 {
     "version": 3,
-    "basePath": "/login",
-    "pages404": true
+    "basePath": "/",
+    "pages404": true,
+    "redirects": [
+        {
+          "source": "",
+          "destination": "/login",
+          "statusCode": 308
+        }
+    ]
 }
